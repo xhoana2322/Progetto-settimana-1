@@ -36,7 +36,7 @@ main {
 }
 
 h1, h4 {
-    color: rgb(0, 194, 194);
+    color: #25a2c3;
 }
 
 
@@ -151,7 +151,7 @@ aside div > p {
 /* FOOTER */
 
 footer {
-    background-color: rgb(0, 173, 173);
+    background-color: #25a2c3;
     text-align: center;
     padding: 3.7em;
 }
@@ -161,10 +161,10 @@ footer h2 {
 }
 
 footer h2 , i {
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 footer > p, a, address {
     font-size: medium;
-    color: rgb(172, 238, 255);
+    color: #c8e7f0;
 }
