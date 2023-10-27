@@ -1,0 +1,170 @@
+/* GENERALE */
+ /*
+h1, h2, h4 {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+*/
+html {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+color: rgb(75, 75, 75);
+}
+
+h1, h2, h4 {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-weight: bolder;
+}
+
+body {
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+    padding: 1em;
+}
+
+
+/* MAIN */
+main {
+    text-align: center;
+}
+
+h1, h4 {
+    color: rgb(0, 194, 194);
+}
+
+
+/* ARTICLE */
+
+/* intro sotto il logo*/
+.intro {
+    margin-bottom: 3em;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3em;
+    margin-top: 0;
+}
+
+.intro h1 {
+    font-size: xx-large;
+}
+
+.intro p {
+    font-size: medium;
+    margin: 1em 0;
+}
+
+button {
+    background-color: rgb(245, 59, 2);
+    text-align: center;
+    padding: 1em 3em;
+    border: 20em;
+    border-radius: 1em;
+    color: white;
+    font-weight: bolder;
+    margin-top: 1em;
+}
+
+/*sezione qualità del article */
+
+article div {
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+article img {
+    width: 15em;
+    border-radius: 100em;
+}
+
+article div > h4 {
+    font-size: large;
+    font-weight: bold;
+    margin: 1em;
+}
+
+article div > p {
+    font-size: medium;
+    margin: 1em;
+}
+
+/* sezione garanzia epicode rossa*/
+
+article section {
+    background-color: rgb(236, 31, 4);
+    color: white;
+    padding: 2em 1em;
+}
+ 
+article section p:first-of-type{
+    font-style: italic;
+    font-size: medium;
+}
+
+#Mario {
+    font-size: larger;
+    margin-bottom: 0;
+}
+
+article h2{
+    font-size: xx-large;
+}
+
+article {
+    margin-bottom: 3em;
+}
+
+article section p:last-child{
+    margin: 0
+}
+
+
+/* ASIDE */
+
+aside img {
+    width: 21em;
+}
+
+aside div {
+    border: 1px solid  #e0e0e0;
+    margin-bottom: 2em;
+}
+
+aside {
+    margin: 2em;
+}
+
+aside div > p {
+    font-size: medium;
+    margin-bottom: 3em;
+    margin-top: 0;
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(0, 173, 173);
+    text-align: center;
+    padding: 3.7em;
+}
+
+footer h2 {
+    font-size: xx-large;
+}
+
+footer h2 , i {
+    color: rgb(255, 255, 255);
+}
+
+footer > p, a, address {
+    font-size: medium;
+    color: rgb(172, 238, 255);
+}
